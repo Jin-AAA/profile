@@ -19,6 +19,7 @@ ul, li {list-style:none;}
 
 .cleardiv {clear:both;}
 
+
 #main {display:flex; justify-content:center; align-items:center; margin-top:20vh;}
 .vdo {width:30vw; max-width:400px; margin-right:5vw;}
 .web_title {width:50vw; position:relative;}
