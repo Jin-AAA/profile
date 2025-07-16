@@ -8,11 +8,14 @@ font-style: normal;
 font-family: zen-maru-gothic,sans-serif;
 font-weight: 700;
 font-style: normal;
+font-family: "ar-udjingxiheib5", sans-serif;
+font-weight: 500;
+font-style: normal;
 */
 
 * {margin:0px; padding:0px;}
 
-body, html {font-family:'zen-maru-gothic','微軟正黑體','Microsoft Jhenghei',sans-serif; font-size:18px; line-height:24px; font-weight:400; position:relative; background:#e8e8e0;}
+body, html {font-family:'ar-udjingxiheib5','微軟正黑體','Microsoft Jhenghei',sans-serif; font-size:18px; line-height:24px; font-weight:400; position:relative; background:#e8e8e0;}
 a, input, button {text-decoration:none; outline:none !important;}
 a:hover, a:focus, a:active {text-decoration:none; cursor:pointer !important; outline:none !important;}
 ul, li {list-style:none;}
