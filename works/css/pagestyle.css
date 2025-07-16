@@ -23,6 +23,16 @@ ul, li {list-style:none;}
 
 .cleardiv {clear:both;}
 
+#lks {display:flex; justify-content:center; position:absolute; right:10px; top:10px;}
+#lks a {color:black; margin:0px 30px; padding:10px 15px; overflow:hidden; position:relative;}
+#lks a:after {content:''; display:block; width:100%; height:1px; position:absolute; left:0; bottom:0; background:black; transform:translateX(-100%);
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+#lks a:hover:after {transform:translateX(0);}
+
 h1 {font-size:48px; line-height:48px; color:#466287; text-align:center; margin:100px auto; font-weight:normal;}
 h1::after {content:''; display:block; width:50%; height:10px; background:#cecece; margin-top:10px;}
 
@@ -74,15 +84,17 @@ h1::after {content:''; display:block; width:50%; height:10px; background:#cecece
   transform: scaleX(1);
 }
 
+.f-html {background:#e8e8e0;}
 
-.opn_box {position:relative; width:80vw;}
-.opn_box .head {display:flex; flex-wrap:nowrap; align-items: center; border-bottom:1px solid black; padding-bottom:20px; margin-bottom:20px;}
-.opn_box .head img {width:25vw; border:5px solid #466287; margin-right:30px;}
-.opn_box .head .right {padding-left:20px; border-left:1px solid black;}
+.opn_box {position:relative; width:60vw;}
+.opn_box .head {display:flex; flex-wrap:nowrap; align-items: center; border-bottom:1px solid #cecece; padding-bottom:20px; margin-bottom:20px;}
+.opn_box .head img {width:25vw; margin-right:30px;}
+.opn_box .head .right {padding-left:20px; border-left:1px solid #cecece;}
 .opn_box .head .right p {font-size:16px; line-height:30px;}
 .opn_box .head .right p.name {font-weight:bold;}
 .opn_box .head .tag {display:table; background:black; font-size:12px; line-height:24px; padding:0px 8px; margin-bottom:10px; color:white;}
 .opn_box img.preview {width:100%; height:auto;}
+.opn_box p.info {font-size:15px; line-height:22px;}
 
 
 
@@ -92,5 +104,6 @@ h1::after {content:''; display:block; width:50%; height:10px; background:#cecece
 @media screen and (max-width: 768px) {
 
     h1 {font-size:36px; line-height:36px; text-align:center;}
+    #wrks .con {width:85vw;}
     
 }
