@@ -105,5 +105,9 @@ h1::after {content:''; display:block; width:50%; height:10px; background:#cecece
 
     h1 {font-size:36px; line-height:36px; text-align:center;}
     #wrks .con {width:85vw;}
+
+    .opn_box {width:90vw;}
+    .opn_box .head {flex-wrap: wrap;}
+    .opn_box .head img {width:100%; margin-right:0px; margin-bottom:20px;}
     
 }
